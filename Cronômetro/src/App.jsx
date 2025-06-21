@@ -20,7 +20,7 @@ useEffect(() => {
   return (
     <div className='max-w-md flex flex-col items-center justify-center py-8'>
 
-      <h1 className='text-2xl fon-semibold'>01-Cronômetro</h1>
+      <h1 className='text-2xl fon-semibold'>01 - Cronômetro</h1>
 
       <div className='text-xl font-semibold py-4'>
         <span>{("0" + Math.floor((time / 60000) % 60)).slice(-2)}:</span>
